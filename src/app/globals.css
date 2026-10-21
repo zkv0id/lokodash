@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans:
+    ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, sans-serif;
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  background:
+    radial-gradient(circle at 15% 0%, rgba(245, 158, 11, 0.08), transparent 40%),
+    radial-gradient(circle at 85% 10%, rgba(56, 189, 248, 0.06), transparent 35%),
+    #070b14;
+  color: #e2e8f0;
+}
+
+::selection {
+  background: rgba(245, 158, 11, 0.35);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #334155 transparent;
+}
